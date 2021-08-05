@@ -22,35 +22,6 @@ class Ad {
       $this->score = $ascore;
       $this->datePublicated = date("mdy");
   }
-  //Lo que pretendia hacer es que a la hora de la creacion del objeto, se ejecutara la comprovacion de "comprovacion" para asi hacer el calculo al moemnto y reasignar el valor del '$score' a su corresponsiente resultado.
-  // Para asi separar el codigo un poco. 
-
-  // function comprovacion(){ 
-  // switch ($typology) {
-  //   case 'CHALET':
-  //     if ($description && $pictures >= 1 && $houseSize != null && gardenSize != null) {
-  //       $this->score = $this->score + 40;
-  //       echo "se ha comprovado correctamente los datos rellenados";
-  //     }
-  //     break;
-  //   case 'FLAT':
-  //     if ($description && $pictures >= 1 && $houseSize != null) {
-  //       $this->score = $this->score + 40;
-  //       echo "se ha comprovado correctamente los datos rellenados";
-  //     }
-  //     break;
-  //   case 'GARAGE':
-  //     if ($pictures >= 1 ) {
-  //       $this->score = $this->score + 40;
-  //       echo "se ha comprovado correctamente los datos rellenados del garaje";
-  //     break;
-    
-  //   default:
-  //     echo "ha habido un problema<br> ";
-  //     break;
-  // }
-  // }
-
 }
 
 ?>
